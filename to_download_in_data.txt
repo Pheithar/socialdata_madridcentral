@@ -1,0 +1,3 @@
+1. Create a /data repo
+2. Download:
+- air quality data (csv): https://drive.google.com/file/d/1Xh6Ce9mBVx2A1NqG8SUe4yUX_voswct8/view?usp=sharing
