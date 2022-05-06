@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Week Analysis</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="f7e68134-3299-4f1f-a990-7d85d5466452" data-root-id="7215"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="7476">
+          {"2ce13228-7982-41c4-99ca-0d201660e0c1":{"defs":[],"roots":{"references":[{"attributes":{"source":{"id":"7141"}},"id":"7147","type":"CDSView"},{"attributes":{"source":{"id":"7200"}},"id":"7206","type":"CDSView"},{"attributes":{"below":[{"id":"7132"}],"center":[{"id":"7134"},{"id":"7138"},{"id":"7157"}],"height":300,"left":[{"id":"7135"}],"renderers":[{"id":"7146"},{"id":"7164"}],"right":[{"id":"7157"}],"title":{"id":"7122"},"toolbar":{"id":"7139"},"toolbar_location":null,"width":700,"x_range":{"id":"7124"},"x_scale":{"id":"7128"},"y_range":{"id":"7126"},"y_scale":{"id":"7130"}},"id":"7121","subtype":"Figure","type":"Plot"},{"attributes":{"coordinates":null,"data_source":{"id":"7141"},"glyph":{"id":"7143"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"7145"},"nonselection_glyph":{"id":"7144"},"view":{"id":"7147"}},"id":"7146","type":"GlyphRenderer"},{"attributes":{"coordinates":null,"data_source":{"id":"7200"},"glyph":{"id":"7208"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"7210"},"nonselection_glyph":{"id":"7209"},"view":{"id":"7212"}},"id":"7211","type":"GlyphRenderer"},{"attributes":{"axis_label":"Traffic intensity average by day","coordinates":null,"formatter":{"id":"7150"},"group":null,"major_label_policy":{"id":"7151"},"ticker":{"id":"7136"}},"id":"7135","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"rgb(222, 143, 5)"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"rgb(222, 143, 5)"},"height":{"value":0.05},"line_alpha":{"value":0.1},"line_color":{"value":"rgb(222, 143, 5)"},"right":{"field":"difference_of_mean_intensity"},"y":{"field":"day_of_week"}},"id":"7203","type":"HBar"},{"attributes":{"coordinates":null,"data_source":{"id":"7200"},"glyph":{"id":"7202"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"7204"},"nonselection_glyph":{"id":"7203"},"view":{"id":"7206"}},"id":"7205","type":"GlyphRenderer"},{"attributes":{"data":{"day_of_week":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"index":[1,5,6,4,0,2,3],"mean_intensity_week":{"__ndarray__":"w5DQXAOKeECtA5Z9dDJ5QBngZ/hDn3lAeXE05WH4eUCPnZX6LfV5QLWjXObiH3NAKVK1wRcmcUA=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"7176"},"selection_policy":{"id":"7175"}},"id":"7159","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_alpha":{"value":0.1},"line_color":{"value":"rgb(0, 90, 139)"},"top":{"field":"mean_intensity_week"},"width":{"value":0.5},"x":{"field":"day_of_week"}},"id":"7144","type":"VBar"},{"attributes":{"fill_color":{"value":"rgb(222, 143, 5)"},"hatch_color":{"value":"rgb(222, 143, 5)"},"height":{"value":0.05},"line_color":{"value":"rgb(222, 143, 5)"},"right":{"field":"difference_of_mean_intensity"},"y":{"field":"day_of_week"}},"id":"7202","type":"HBar"},{"attributes":{},"id":"7151","type":"AllLabels"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"rgb(222, 143, 5)"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"rgb(222, 143, 5)"},"height":{"value":0.05},"line_alpha":{"value":0.2},"line_color":{"value":"rgb(222, 143, 5)"},"right":{"field":"difference_of_mean_intensity"},"y":{"field":"day_of_week"}},"id":"7204","type":"HBar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_alpha":{"value":0.2},"line_color":{"value":"rgb(0, 90, 139)"},"top":{"field":"mean_intensity_week"},"width":{"value":0.5},"x":{"field":"day_of_week"}},"id":"7145","type":"VBar"},{"attributes":{"children":[{"id":"7121"},{"id":"7180"}]},"id":"7215","type":"Column"},{"attributes":{},"id":"7153","type":"CategoricalTickFormatter"},{"attributes":{},"id":"7154","type":"AllLabels"},{"attributes":{"fill_color":{"value":"rgb(222, 143, 5)"},"hatch_color":{"value":"rgb(222, 143, 5)"},"line_color":{"value":"rgb(222, 143, 5)"},"size":{"value":15},"x":{"field":"difference_of_mean_intensity"},"y":{"field":"day_of_week"}},"id":"7208","type":"Circle"},{"attributes":{"source":{"id":"7200"}},"id":"7212","type":"CDSView"},{"attributes":{},"id":"7155","type":"UnionRenderers"},{"attributes":{},"id":"7156","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"rgb(222, 143, 5)"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"rgb(222, 143, 5)"},"line_alpha":{"value":0.1},"line_color":{"value":"rgb(222, 143, 5)"},"size":{"value":15},"x":{"field":"difference_of_mean_intensity"},"y":{"field":"day_of_week"}},"id":"7209","type":"Circle"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"7158"},{"id":"7177"}]},"id":"7157","type":"Legend"},{"attributes":{"label":{"value":"Madrid Central"},"renderers":[{"id":"7146"}]},"id":"7158","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"rgb(222, 143, 5)"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"rgb(222, 143, 5)"},"line_alpha":{"value":0.2},"line_color":{"value":"rgb(222, 143, 5)"},"size":{"value":15},"x":{"field":"difference_of_mean_intensity"},"y":{"field":"day_of_week"}},"id":"7210","type":"Circle"},{"attributes":{"callback":null,"mode":"hline","renderers":[{"id":"7211"}],"tooltips":[["Difference of intensity between Madrid and Madrid Central","@difference_of_mean_intensity{00.00}"],["Day of the Week","@day_of_week"]]},"id":"7213","type":"HoverTool"},{"attributes":{},"id":"7130","type":"LinearScale"},{"attributes":{"line_alpha":0.2,"line_color":"rgb(148, 148, 148)","line_width":3,"x":{"field":"day_of_week"},"y":{"field":"mean_intensity_week"}},"id":"7163","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(148, 148, 148)","line_width":3,"x":{"field":"day_of_week"},"y":{"field":"mean_intensity_week"}},"id":"7162","type":"Line"},{"attributes":{"line_color":"rgb(148, 148, 148)","line_width":3,"x":{"field":"day_of_week"},"y":{"field":"mean_intensity_week"}},"id":"7161","type":"Line"},{"attributes":{"coordinates":null,"data_source":{"id":"7159"},"glyph":{"id":"7161"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"7163"},"nonselection_glyph":{"id":"7162"},"view":{"id":"7165"}},"id":"7164","type":"GlyphRenderer"},{"attributes":{},"id":"7225","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"7159"}},"id":"7165","type":"CDSView"},{"attributes":{},"id":"7226","type":"AllLabels"},{"attributes":{},"id":"7175","type":"UnionRenderers"},{"attributes":{"coordinates":null,"group":null,"text":"Average traffic intensity per day in a week in Madrid Central \nand in the city of Madrid"},"id":"7122","type":"Title"},{"attributes":{},"id":"7228","type":"BasicTickFormatter"},{"attributes":{},"id":"7176","type":"Selection"},{"attributes":{},"id":"7229","type":"AllLabels"},{"attributes":{"label":{"value":"Madrid"},"renderers":[{"id":"7164"}]},"id":"7177","type":"LegendItem"},{"attributes":{},"id":"7234","type":"UnionRenderers"},{"attributes":{"below":[{"id":"7191"}],"center":[{"id":"7194"},{"id":"7197"}],"height":300,"left":[{"id":"7195"}],"renderers":[{"id":"7205"},{"id":"7211"}],"title":{"id":"7181"},"toolbar":{"id":"7198"},"toolbar_location":null,"width":700,"x_range":{"id":"7183"},"x_scale":{"id":"7187"},"y_range":{"id":"7185"},"y_scale":{"id":"7189"}},"id":"7180","subtype":"Figure","type":"Plot"},{"attributes":{"end":44.10313183366088,"start":-44.10313183366088},"id":"7183","type":"Range1d"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Average Intensity per day","@mean_intensity_week"],["Day of the Week","@day_of_week"]]},"id":"7178","type":"HoverTool"},{"attributes":{},"id":"7235","type":"Selection"},{"attributes":{"data":{"day_of_week":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"index":[1,5,6,4,0,2,3],"mean_intensity_week":{"__ndarray__":"o5KBeXoZd0Aa6e6eGq13QDzXam6+PXhAhEiKIETNeEBTFZjxI0Z5QEBw1COHE3VAKR5GL76Xc0A=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"7156"},"selection_policy":{"id":"7155"}},"id":"7141","type":"ColumnDataSource"},{"attributes":{"coordinates":null,"group":null,"text":"Difference of averages of traffic intensity between the Cityof Madrid \nand the area of Madrid Central"},"id":"7181","type":"Title"},{"attributes":{"data":{"day_of_week":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"difference_of_mean_intensity":{"__ndarray__":"AOLvNI4IN0AwqXHqnVU4QNCN0J9YGDZAUI+iStyxMkCAB7EfQeElQLDIfNdDOj/AAGCGbDONQ8A=","dtype":"float64","order":"little","shape":[7]},"index":[0,1,2,3,4,5,6]},"selected":{"id":"7235"},"selection_policy":{"id":"7234"}},"id":"7200","type":"ColumnDataSource"},{"attributes":{"logo":null,"tools":[{"id":"7178"}]},"id":"7139","type":"Toolbar"},{"attributes":{"axis":{"id":"7135"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"7138","type":"Grid"},{"attributes":{"factors":["Sunday","Saturday","Friday","Thursday","Wednesday","Tuesday","Monday"]},"id":"7185","type":"FactorRange"},{"attributes":{},"id":"7187","type":"LinearScale"},{"attributes":{},"id":"7126","type":"DataRange1d"},{"attributes":{},"id":"7189","type":"CategoricalScale"},{"attributes":{"axis_label":"Difference in traffic","coordinates":null,"formatter":{"id":"7228"},"group":null,"major_label_policy":{"id":"7229"},"ticker":{"id":"7192"}},"id":"7191","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_color":{"value":"rgb(0, 90, 139)"},"top":{"field":"mean_intensity_week"},"width":{"value":0.5},"x":{"field":"day_of_week"}},"id":"7143","type":"VBar"},{"attributes":{},"id":"7192","type":"BasicTicker"},{"attributes":{"axis":{"id":"7191"},"coordinates":null,"group":null,"ticker":null},"id":"7194","type":"Grid"},{"attributes":{},"id":"7128","type":"CategoricalScale"},{"attributes":{"axis_label":"Weekday","coordinates":null,"formatter":{"id":"7225"},"group":null,"major_label_policy":{"id":"7226"},"ticker":{"id":"7196"}},"id":"7195","type":"CategoricalAxis"},{"attributes":{"factors":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]},"id":"7124","type":"FactorRange"},{"attributes":{},"id":"7196","type":"CategoricalTicker"},{"attributes":{"axis_label":"Weekday","coordinates":null,"formatter":{"id":"7153"},"group":null,"major_label_policy":{"id":"7154"},"ticker":{"id":"7133"}},"id":"7132","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"7132"},"coordinates":null,"group":null,"ticker":null},"id":"7134","type":"Grid"},{"attributes":{"axis":{"id":"7195"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"7197","type":"Grid"},{"attributes":{"logo":null,"tools":[{"id":"7213"}]},"id":"7198","type":"Toolbar"},{"attributes":{},"id":"7136","type":"BasicTicker"},{"attributes":{},"id":"7133","type":"CategoricalTicker"},{"attributes":{},"id":"7150","type":"BasicTickFormatter"}],"root_ids":["7215"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('7476').textContent;
+                  const render_items = [{"docid":"2ce13228-7982-41c4-99ca-0d201660e0c1","root_ids":["7215"],"roots":{"7215":"f7e68134-3299-4f1f-a990-7d85d5466452"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
