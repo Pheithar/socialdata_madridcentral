@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Average traffic intensity per day through the years in and out of Madrid Central</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="af9df60e-4be9-4e08-9be9-cd6750832c0e" data-root-id="6143"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="6373">
+          {"156b4f7f-2bf0-43e4-b3a4-c5ee9978c92c":{"defs":[],"roots":{"references":[{"attributes":{},"id":"6166","type":"ResetTool"},{"attributes":{"axis_label":"Year","coordinates":null,"formatter":{"id":"6188"},"group":null,"major_label_policy":{"id":"6189"},"ticker":{"id":"6155"}},"id":"6154","type":"LinearAxis"},{"attributes":{},"id":"6211","type":"UnionRenderers"},{"attributes":{},"id":"6152","type":"LinearScale"},{"attributes":{"line_color":"rgb(222, 143, 5)","line_width":3,"x":{"field":"year"},"y":{"field":"mean_intensity_year"}},"id":"6197","type":"Line"},{"attributes":{},"id":"6167","type":"HelpTool"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(222, 143, 5)","line_width":3,"x":{"field":"year"},"y":{"field":"mean_intensity_year"}},"id":"6198","type":"Line"},{"attributes":{},"id":"6146","type":"DataRange1d"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Average Intensity per day","@mean_intensity_year"],["Year","@year"]]},"id":"6215","type":"HoverTool"},{"attributes":{"coordinates":null,"data_source":{"id":"6176"},"glyph":{"id":"6178"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"6180"},"nonselection_glyph":{"id":"6179"},"view":{"id":"6182"}},"id":"6181","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Madrid"},"renderers":[{"id":"6200"}]},"id":"6214","type":"LegendItem"},{"attributes":{"data":{"index":[0,1,2,3,4],"mean_intensity_year":{"__ndarray__":"YS5dEoAteUBjYed6c7l4QPJdGBvZA3lAYSrb4rfZeEDf9LiMCZF5QA==","dtype":"float64","order":"little","shape":[5]},"year":[2016,2017,2018,2019,2020]},"selected":{"id":"6212"},"selection_policy":{"id":"6211"}},"id":"6195","type":"ColumnDataSource"},{"attributes":{"source":{"id":"6176"}},"id":"6182","type":"CDSView"},{"attributes":{"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_color":{"value":"rgb(1, 115, 178)"},"top":{"field":"mean_intensity_year"},"width":{"value":0.5},"x":{"field":"year"}},"id":"6178","type":"VBar"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"6168","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_alpha":{"value":0.1},"line_color":{"value":"rgb(1, 115, 178)"},"top":{"field":"mean_intensity_year"},"width":{"value":0.5},"x":{"field":"year"}},"id":"6179","type":"VBar"},{"attributes":{},"id":"6185","type":"BasicTickFormatter"},{"attributes":{"label":{"value":"Madrid Central"},"renderers":[{"id":"6181"}]},"id":"6194","type":"LegendItem"},{"attributes":{"below":[{"id":"6154"}],"center":[{"id":"6157"},{"id":"6161"},{"id":"6193"}],"height":400,"left":[{"id":"6158"}],"renderers":[{"id":"6181"},{"id":"6200"}],"right":[{"id":"6193"}],"title":{"id":"6144"},"toolbar":{"id":"6169"},"width":800,"x_range":{"id":"6146"},"x_scale":{"id":"6150"},"y_range":{"id":"6148"},"y_scale":{"id":"6152"}},"id":"6143","subtype":"Figure","type":"Plot"},{"attributes":{"coordinates":null,"group":null,"text":"Average traffic intensity per day through the years in Madrid Central and in the city of Madrid"},"id":"6144","type":"Title"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"6194"},{"id":"6214"}]},"id":"6193","type":"Legend"},{"attributes":{},"id":"6148","type":"DataRange1d"},{"attributes":{},"id":"6186","type":"AllLabels"},{"attributes":{},"id":"6155","type":"BasicTicker"},{"attributes":{"axis":{"id":"6154"},"coordinates":null,"group":null,"ticker":null},"id":"6157","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_alpha":{"value":0.2},"line_color":{"value":"rgb(1, 115, 178)"},"top":{"field":"mean_intensity_year"},"width":{"value":0.5},"x":{"field":"year"}},"id":"6180","type":"VBar"},{"attributes":{},"id":"6150","type":"LinearScale"},{"attributes":{},"id":"6188","type":"BasicTickFormatter"},{"attributes":{},"id":"6212","type":"Selection"},{"attributes":{"source":{"id":"6195"}},"id":"6201","type":"CDSView"},{"attributes":{},"id":"6190","type":"UnionRenderers"},{"attributes":{"coordinates":null,"data_source":{"id":"6195"},"glyph":{"id":"6197"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"6199"},"nonselection_glyph":{"id":"6198"},"view":{"id":"6201"}},"id":"6200","type":"GlyphRenderer"},{"attributes":{},"id":"6163","type":"WheelZoomTool"},{"attributes":{},"id":"6189","type":"AllLabels"},{"attributes":{"data":{"index":[0,1,2,3,4],"mean_intensity_year":{"__ndarray__":"M9Hg4vWOekDh+1aYvXR6QIUvilbXsXhAzH3vit83eEDNdXh+OBh4QA==","dtype":"float64","order":"little","shape":[5]},"year":[2016,2017,2018,2019,2020]},"selected":{"id":"6191"},"selection_policy":{"id":"6190"}},"id":"6176","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.2,"line_color":"rgb(222, 143, 5)","line_width":3,"x":{"field":"year"},"y":{"field":"mean_intensity_year"}},"id":"6199","type":"Line"},{"attributes":{"axis_label":"Traffic intensity average by day","coordinates":null,"formatter":{"id":"6185"},"group":null,"major_label_policy":{"id":"6186"},"ticker":{"id":"6159"}},"id":"6158","type":"LinearAxis"},{"attributes":{"axis":{"id":"6158"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"6161","type":"Grid"},{"attributes":{},"id":"6159","type":"BasicTicker"},{"attributes":{},"id":"6165","type":"SaveTool"},{"attributes":{"tools":[{"id":"6162"},{"id":"6163"},{"id":"6164"},{"id":"6165"},{"id":"6166"},{"id":"6167"},{"id":"6215"}]},"id":"6169","type":"Toolbar"},{"attributes":{},"id":"6191","type":"Selection"},{"attributes":{"overlay":{"id":"6168"}},"id":"6164","type":"BoxZoomTool"},{"attributes":{},"id":"6162","type":"PanTool"}],"root_ids":["6143"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('6373').textContent;
+                  const render_items = [{"docid":"156b4f7f-2bf0-43e4-b3a4-c5ee9978c92c","root_ids":["6143"],"roots":{"6143":"af9df60e-4be9-4e08-9be9-cd6750832c0e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
