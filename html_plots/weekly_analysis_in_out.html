@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Average traffic intensity per day in a week in and out of Madrid Central</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="dc34e973-9393-4b2d-9743-bb64b05d2e1f" data-root-id="7530"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="7759">
+          {"9536097a-543c-465f-b82f-c17f167c8826":{"defs":[],"roots":{"references":[{"attributes":{"label":{"value":"Madrid Central"},"renderers":[{"id":"7567"}]},"id":"7580","type":"LegendItem"},{"attributes":{},"id":"7553","type":"HelpTool"},{"attributes":{"source":{"id":"7581"}},"id":"7587","type":"CDSView"},{"attributes":{},"id":"7537","type":"CategoricalScale"},{"attributes":{"axis_label":"Traffic intensity average by day","coordinates":null,"formatter":{"id":"7571"},"group":null,"major_label_policy":{"id":"7572"},"ticker":{"id":"7545"}},"id":"7544","type":"LinearAxis"},{"attributes":{"data":{"day_of_week":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"index":[1,5,6,4,0,2,3],"mean_intensity_week":{"__ndarray__":"TOkb0tA6ekDrTVggBdV6QCQhTXaLO3tAFCDJO1She0BXRzBdzMJ7QJsRwTLYeHRA6cOb37eQckA=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"7598"},"selection_policy":{"id":"7597"}},"id":"7581","type":"ColumnDataSource"},{"attributes":{},"id":"7598","type":"Selection"},{"attributes":{"line_alpha":0.2,"line_color":"rgb(222, 143, 5)","line_width":3,"x":{"field":"day_of_week"},"y":{"field":"mean_intensity_week"}},"id":"7585","type":"Line"},{"attributes":{},"id":"7571","type":"BasicTickFormatter"},{"attributes":{"coordinates":null,"data_source":{"id":"7581"},"glyph":{"id":"7583"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"7585"},"nonselection_glyph":{"id":"7584"},"view":{"id":"7587"}},"id":"7586","type":"GlyphRenderer"},{"attributes":{},"id":"7572","type":"AllLabels"},{"attributes":{"coordinates":null,"group":null,"text":"Average traffic intensity per day in a week in Madrid Central and in the city of Madrid"},"id":"7531","type":"Title"},{"attributes":{},"id":"7542","type":"CategoricalTicker"},{"attributes":{},"id":"7575","type":"AllLabels"},{"attributes":{"axis":{"id":"7541"},"coordinates":null,"group":null,"ticker":null},"id":"7543","type":"Grid"},{"attributes":{"data":{"day_of_week":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"index":[1,5,6,4,0,2,3],"mean_intensity_week":{"__ndarray__":"yYuoVYBMeUDRwRYqfeJ5QEOCBQS9e3pAn8VV99Uhe0D/o5hWsNR7QCr0fyiEXHdAyDZy+qn1dUA=","dtype":"float64","order":"little","shape":[7]}},"selected":{"id":"7577"},"selection_policy":{"id":"7576"}},"id":"7562","type":"ColumnDataSource"},{"attributes":{},"id":"7577","type":"Selection"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"7554","type":"BoxAnnotation"},{"attributes":{},"id":"7535","type":"DataRange1d"},{"attributes":{},"id":"7576","type":"UnionRenderers"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"7580"},{"id":"7600"}]},"id":"7579","type":"Legend"},{"attributes":{},"id":"7552","type":"ResetTool"},{"attributes":{"tools":[{"id":"7548"},{"id":"7549"},{"id":"7550"},{"id":"7551"},{"id":"7552"},{"id":"7553"},{"id":"7601"}]},"id":"7555","type":"Toolbar"},{"attributes":{},"id":"7574","type":"CategoricalTickFormatter"},{"attributes":{"overlay":{"id":"7554"}},"id":"7550","type":"BoxZoomTool"},{"attributes":{"callback":null,"mode":"vline","tooltips":[["Average Intensity per day","@mean_intensity_week"],["Day of the Week","@day_of_week"]]},"id":"7601","type":"HoverTool"},{"attributes":{},"id":"7597","type":"UnionRenderers"},{"attributes":{"coordinates":null,"data_source":{"id":"7562"},"glyph":{"id":"7564"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"7566"},"nonselection_glyph":{"id":"7565"},"view":{"id":"7568"}},"id":"7567","type":"GlyphRenderer"},{"attributes":{"below":[{"id":"7541"}],"center":[{"id":"7543"},{"id":"7547"},{"id":"7579"}],"height":400,"left":[{"id":"7544"}],"renderers":[{"id":"7567"},{"id":"7586"}],"right":[{"id":"7579"}],"title":{"id":"7531"},"toolbar":{"id":"7555"},"width":800,"x_range":{"id":"7533"},"x_scale":{"id":"7537"},"y_range":{"id":"7535"},"y_scale":{"id":"7539"}},"id":"7530","subtype":"Figure","type":"Plot"},{"attributes":{"line_color":"rgb(222, 143, 5)","line_width":3,"x":{"field":"day_of_week"},"y":{"field":"mean_intensity_week"}},"id":"7583","type":"Line"},{"attributes":{},"id":"7545","type":"BasicTicker"},{"attributes":{"line_alpha":0.1,"line_color":"rgb(222, 143, 5)","line_width":3,"x":{"field":"day_of_week"},"y":{"field":"mean_intensity_week"}},"id":"7584","type":"Line"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_alpha":{"value":0.2},"line_color":{"value":"rgb(1, 115, 178)"},"top":{"field":"mean_intensity_week"},"width":{"value":0.5},"x":{"field":"day_of_week"}},"id":"7566","type":"VBar"},{"attributes":{"label":{"value":"Madrid"},"renderers":[{"id":"7586"}]},"id":"7600","type":"LegendItem"},{"attributes":{"axis":{"id":"7544"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"7547","type":"Grid"},{"attributes":{"source":{"id":"7562"}},"id":"7568","type":"CDSView"},{"attributes":{"factors":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]},"id":"7533","type":"FactorRange"},{"attributes":{},"id":"7549","type":"WheelZoomTool"},{"attributes":{"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_color":{"value":"rgb(1, 115, 178)"},"top":{"field":"mean_intensity_week"},"width":{"value":0.5},"x":{"field":"day_of_week"}},"id":"7564","type":"VBar"},{"attributes":{"axis_label":"Weekday","coordinates":null,"formatter":{"id":"7574"},"group":null,"major_label_policy":{"id":"7575"},"ticker":{"id":"7542"}},"id":"7541","type":"CategoricalAxis"},{"attributes":{},"id":"7539","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"rgb(1, 115, 178)"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"rgb(1, 115, 178)"},"line_alpha":{"value":0.1},"line_color":{"value":"rgb(1, 115, 178)"},"top":{"field":"mean_intensity_week"},"width":{"value":0.5},"x":{"field":"day_of_week"}},"id":"7565","type":"VBar"},{"attributes":{},"id":"7548","type":"PanTool"},{"attributes":{},"id":"7551","type":"SaveTool"}],"root_ids":["7530"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('7759').textContent;
+                  const render_items = [{"docid":"9536097a-543c-465f-b82f-c17f167c8826","root_ids":["7530"],"roots":{"7530":"dc34e973-9393-4b2d-9743-bb64b05d2e1f"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
